@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AnyCodable",
+        "repositoryURL": "https://github.com/Flight-School/AnyCodable",
+        "state": {
+          "branch": null,
+          "revision": "6e9610258e9f1044b5e0d88545052846448b43c3",
+          "version": "0.2.3"
+        }
+      },
+      {
+        "package": "BigInt",
+        "repositoryURL": "https://github.com/attaswift/BigInt.git",
+        "state": {
+          "branch": null,
+          "revision": "19f5e8a48be155e34abb98a2bcf4a343316f0343",
+          "version": "5.0.0"
+        }
+      },
+      {
+        "package": "CryptoSwift",
+        "repositoryURL": "https://github.com/krzyzanowskim/CryptoSwift.git",
+        "state": {
+          "branch": "master",
+          "revision": "a842251aee9047b2b335afe0ae0b5b44daf95219",
+          "version": null
+        }
+      },
+      {
+        "package": "Wei",
+        "repositoryURL": "https://github.com/KevinVitale/Wei.git",
+        "state": {
+          "branch": null,
+          "revision": "623a3b621e7179dca090489c4e8c4ce3281d5ec6",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

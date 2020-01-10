@@ -1,0 +1,18 @@
+version: '3'
+
+services:
+  ganache:
+    image: trufflesuite/ganache-cli
+    restart: unless-stopped
+    networks: 
+      - network
+    ports:
+      - 8545:8545
+      - 8546:8546
+    command: --gasLimit "90000000" --mnemonic "clarify lunar believe enact adjust drama purity tape lawn patrol crouch pond" --networkId "100"
+    
+networks:
+  network:
+
+# Revisit this:
+# https://github.com/lzhou1110/drizzle-truffle-ganache-docker-box/blob/master/docker-compose-dev.yml

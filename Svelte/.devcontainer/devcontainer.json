@@ -1,0 +1,27 @@
+{
+    "name": "kettle-client",
+    "dockerFile": "Dockerfile",
+
+    "runArgs": [
+        "-u", "vscode",
+        "-p", "0.0.0.0:9000:9000",
+        "--network", "kettle_network",
+        "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined"
+    ],
+
+    "settings": {
+		"lldb.adapterType": "bundled",
+		"lldb.executable": "/usr/bin/lldb",
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+    // Uncomment the next line if you want to publish any ports.
+    "appPort": [
+      // 9000
+    ],
+
+    "extensions": [
+		"pvasek.sourcekit-lsp--dev-unofficial",
+		"vadimcn.vscode-lldb"
+	]
+}
