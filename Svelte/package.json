@@ -15,7 +15,12 @@
     "@walletconnect/browser": "^1.0.0-beta.46",
     "@walletconnect/qrcode-modal": "^1.0.0-beta.46",
     "@walletconnect/web3-provider": "^1.0.0-beta.45",
+    "assert": "^2.0.0",
+    "axios": "^0.19.2",
+    "circomlib": "0.0.20",
+    "crypto": "^1.0.1",
     "drizzle": "^1.2.2",
+    "snarkjs": "^0.1.20",
     "web3": "^1.2.5-rc.0"
   },
   "devDependencies": {
