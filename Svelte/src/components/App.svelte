@@ -115,8 +115,9 @@
 	</ul>
 </main>
 
+
 <style>
-	main {
+	old-main {
 		text-align: center;
 		padding: 1em;
 		width: 500px;
@@ -145,4 +146,165 @@
 			max-width: none;
 		}
 	}
+
+  html,
+  body,
+  main {
+    background: #443750;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  body {
+    font-family: canada-type-gibson, sans-serif;
+  }
+
+  .btn {
+    align-items: center;
+    background-color: #fc5090;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    letter-spacing: 0.25em;
+    max-width: 200px;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: uppercase;
+  }
+
+  .card {
+    background-color: #fff;
+    color: rgba(82, 72, 93, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: left;
+    width: 250px;
+  }
+
+  .card a {
+    text-decoration: none;
+  }
+
+  .card img {
+    margin-bottom: 8px;
+  }
+  .card-list {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .card-list a {
+    color: inherit;
+    font-weight: 500;
+  }
+
+  .card-list li {
+    align-items: center;
+    display: flex;
+    margin: 10px;
+  }
+
+  .card-list svg {
+    margin-right: 10px;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px;
+  }
+
+  .container-sm {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header-lg {
+    font-size: 35px;
+    font-weight: 300;
+    margin: 20px;
+  }
+  
+  .header-sm {
+    font-size: 28px;
+    font-weight: 300;
+    margin: 10px;
+  }
+
+  .hero-wrapper {
+    width: 66.6666666667%;
+    font-size: 16px;
+    background-color: #3d286b !important;
+    color: white;
+    border-radius: 2px;
+  }
+
+  .space-around {
+    justify-content: space-around;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user {
+    flex: 1;
+    margin: 0 20px;
+    padding: 10px;
+  }
+
+  .user-label {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px 0;
+  }
+
+  .user-inputs input {
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    flex: 2;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .user-inputs .input-light {
+    background: rgba(0, 0, 0, 0.02);
+  }
+
+  .user-inputs button {
+    flex: 1;
+    margin-left: 10px;
+  }
 </style>
