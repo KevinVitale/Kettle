@@ -18,7 +18,7 @@ export const getWCProvider = async () => {
     //  --host 192.168.1.24
     //  --networkId 100;
 		rpc: { 
-      100: "http://192.168.1.24:8545", 
+      100: "http://192.168.1.27:8545", 
       bridge: "https://bridge.walletconnect.org",
       shareNonce: false
     }
