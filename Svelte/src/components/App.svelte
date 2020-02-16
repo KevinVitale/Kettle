@@ -23,7 +23,7 @@
 			"0x0000000000000000000000000000000000000000000000000000000000000000"
 		).send({
 			to: "0x91996Be8aCEE088e77512365Ffc4EE522ff9DFFA",
-			from: "0x0Cbe55DF6ec0b2AD41274Dad7Ccf17fc632CF749",
+			from: "0x2C93d2Df11bD6B2BcFca265cadA30B457C28B15d",
 			value: provider.utils.numberToHex((1 * 1e18)),
 		})
 		.on('transactionHash', function (hash) { console.log("Hash: " + hash); })
@@ -80,17 +80,24 @@
 	});
 	*/
 
+	async function testing() {
+		console.log("testing");
+	}
 </script>
 
 <main>
-	<h1>kettle</h1>
+	<h1 class='center-text'>kettle</h1>
+	<h2 class='center-text'>Facilitating 32 ETH Transfers for ETH 2.0 Validators</h2>
+	<div class='center-text'>
 	<button on:click={handleClickSend}>
 		Deposit ETH
 	</button>
-	<hr/>
-	<h2>
-		<p>Contract List</p>
-	</h2>
+	<button on:click={handleClickSend}>
+		Deposit ETH
+	</button>
+	</div>
+	<p class='center-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	<!--
 	<ul>
 	{#each Object.values(contracts) as contract, i}
 		<p>
@@ -100,19 +107,7 @@
 		Loading...
 	{/each}
 	</ul>
-	<hr/>
-	<h2>
-		<p>Account List</p>
-	</h2>
-	<ul>
-	{#each Object.values(accounts) as account, i}
-		<p>
-			<li>{ account }</li>
-		</p>
-	{:else}
-		Loading...
-	{/each}
-	</ul>
+	-->
 </main>
 
 
@@ -125,14 +120,14 @@
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: #3D286B;
 		text-transform: uppercase;
-		font-size: 4em;
+		font-size: 5em;
 		font-weight: 100;
 	}
 
 	h2 {
-		color: #003e00;
+		color: #3D286B;
 		font-size: 2em;
 		font-weight: 300;
 	}
@@ -147,15 +142,15 @@
 		}
 	}
 
-  html,
-  body,
-  main {
-    background: #443750;
+  :global(html),
+  :global(body),
+  :global(main) {
+	background: lightgray;
     height: 100%;
     margin: 0;
     width: 100%;
   }
-  body {
+  :global(body) {
     font-family: canada-type-gibson, sans-serif;
   }
 
@@ -172,7 +167,7 @@
     max-width: 200px;
     padding: 10px;
     text-decoration: none;
-    text-decoration: uppercase;
+	text-decoration: uppercase;
   }
 
   .card {
@@ -261,7 +256,7 @@
     width: 66.6666666667%;
     font-size: 16px;
     background-color: #3d286b !important;
-    color: white;
+    /*color: white;*/
     border-radius: 2px;
   }
 
@@ -306,5 +301,27 @@
   .user-inputs button {
     flex: 1;
     margin-left: 10px;
+  }
+
+  :global(button) {
+	background-color: #FC5090;
+	color: white;
+	font-weight: bold;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 3em;
+	width: 25%;
+	font-size: 2em;
+  }
+
+    :global(button:hover) {
+	background-color: #3D286B;
+	color: white;
+	font-weight: bold;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 3em;
+	width: 25%;
+	font-size: 2em;
   }
 </style>
