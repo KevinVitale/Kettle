@@ -3,9 +3,7 @@ Kettlecorn
 <img width='100%' src='images/Kettlecorn_Screenshot.png'/>
 
 
-## Kettlecorn is a decentralized application (dapp) that allows ETH-holders that want to validate in Ethereum 2.0 Phase 0 an easy way to anonymize their deposits to the beacon chain deposit contract on Ethereum Mainnet.
-
-### We feel that this historic migration of ETH from Ethereum 1.0 to 2.0, with consistent deposit/transfer amounts of 32 ETH, could provide a high likelihood of anonymity for new and long-time users of Ethereum 1.0 that have little-to-no privacy on the current mainnet.
+## Kettlecorn is a decentralized application (dapp) that allows ETH-holders that want to validate in Ethereum 2.0 Phase 0 an easy way to anonymize their deposits to the beacon chain deposit contract on Ethereum Mainnet. We feel that this historic migration of ETH from Ethereum 1.0 to 2.0, with consistent deposit/transfer amounts of 32 ETH, could provide a high likelihood of anonymity for new and long-time users of Ethereum 1.0 that have little-to-no privacy on the current mainnet.
 
 
 ## Development Roadmap
@@ -21,7 +19,7 @@ Create a dapp to tie the workflow together and walk the user through Tornado Cas
 
 
 
-## Additional Information:
+## Additional Information
 
 ### Project Workflow
 <img width='50%' src='images/Kettlecorn_Workflow.jpg'/>
