@@ -89,6 +89,7 @@
 	<h1 class='center-text'>kettle</h1>
 	<h2 class='center-text'>Facilitating 32 ETH Transfers for ETH 2.0 Validators</h2>
 	<div class='center-text'>
+	<image class='center-text' src='https://www.ethdenver.com/wp-content/themes/understrap/img/peeking-bufficorn.png'/>
 	<button on:click={handleClickSend}>
 		Deposit ETH
 	</button>
@@ -96,7 +97,7 @@
 		Deposit ETH
 	</button>
 	</div>
-	<p class='center-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	<p class='center-text'>Here is text so Mike doesn't have to worry about translation issues.</p>
 	<!--
 	<ul>
 	{#each Object.values(contracts) as contract, i}
