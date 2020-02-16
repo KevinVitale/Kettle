@@ -196,22 +196,43 @@
 </script>
 
 <main>
-	<h1>kettle</h1>
-	<button on:click={handleClick}>
-		Sign Transaction
-	</button>
-	<br/>
+	<div class='center-text'>
+		<image class='home-image' src={'https://www.cryptotrumps.net/wp-includes/custom-images/bufficorn.png'}/>
+	</div>
+	<h1 class='center-text'>kettlecorn</h1>
+	<div class='center-text'>
 	<button on:click={tornadoCashDeposit}>
-		Tornado Cash - Deposit
+		Deposit Your 32 ETH
 	</button>
-	<br/>
 	<button on:click={tornadoCashWithdrawl}>
-		Tornado Cash - Withdrawl
+		Claim Your 32 ETH
 	</button>
-	<hr/>
-	<h2>
-		<p>Contract List</p>
-	</h2>
+	</div>
+	<br>
+	<div>
+	<h2 class='center-text'>Kettlecorn Anonymizes 32 ETH for ETH 2.0 Validators</h2>
+	<!--<p class='center-text margin-60'>Your privacy is important. Kettle is a decentralized application (dapp) powered by the Ethereum Blockchain, that gives you the tools to keep your transactions anonymous.</p>-->
+	<br>
+	<h6 class='center-text margin-60'>Your privacy is important. Kettlecorn is a mystical creature powered by the Ethereum Blockchain. He gives you the tools to keep your transactions private, 32 ETH at a time.</h6>
+	</div>
+	<br>
+	<br>
+	<div class='center-text'>
+		<image class='width-50' src={'https://ethereum.org/assets/img/ethereum-logo-landscape-black.ad09bc8d.png'}/>
+	</div>
+	<br>
+	<br>
+	<h4 class='margin-60'>Kettlecorn is a decentralized app on the Ethereum Blockchain that automatically anonymizes 32-ETH denominations.</h4>
+	<br>
+	<br>
+	<h4 class='margin-60'>Deposit 32 ETH and wait for others. After a short amount of time, return to this page with your <b>Transaction Note</b> to retrieve your newly-anonymized Ether.</h4>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<!--
 	<ul>
 	{#each Object.values(contracts) as contract, i}
 		<p>
@@ -221,23 +242,12 @@
 		Loading...
 	{/each}
 	</ul>
-	<hr/>
-	<h2>
-		<p>Account List</p>
-	</h2>
-	<ul>
-	{#each Object.values(accounts) as account, i}
-		<p>
-			<li>{ account }</li>
-		</p>
-	{:else}
-		Loading...
-	{/each}
-	</ul>
+	-->
 </main>
 
+
 <style>
-	main {
+	old-main {
 		text-align: center;
 		padding: 1em;
 		width: 500px;
@@ -245,14 +255,14 @@
 	}
 
 	h1 {
-		color: #ff3e00;
+		color: #3D286B;
 		text-transform: uppercase;
 		font-size: 4em;
 		font-weight: 100;
 	}
 
 	h2 {
-		color: #003e00;
+		color: #3D286B;
 		font-size: 2em;
 		font-weight: 300;
 	}
@@ -266,4 +276,207 @@
 			max-width: none;
 		}
 	}
+
+  :global(html),
+  :global(body),
+  :global(main) {
+	background: lightgray;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+  }
+  :global(body) {
+    font-family: canada-type-gibson, sans-serif;
+  }
+
+  .btn {
+    align-items: center;
+    background-color: #fc5090;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    font-size: 16px;
+    justify-content: center;
+    letter-spacing: 0.25em;
+    max-width: 200px;
+    padding: 10px;
+    text-decoration: none;
+	text-decoration: uppercase;
+  }
+
+  .card {
+    background-color: #fff;
+    color: rgba(82, 72, 93, 0.7);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: left;
+    width: 250px;
+  }
+
+  .card a {
+    text-decoration: none;
+  }
+
+  .card img {
+    margin-bottom: 8px;
+  }
+  .card-list {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .card-list a {
+    color: inherit;
+    font-weight: 500;
+  }
+
+  .card-list li {
+    align-items: center;
+    display: flex;
+    margin: 10px;
+  }
+
+  .card-list svg {
+    margin-right: 10px;
+  }
+
+  .center-text {
+    text-align: center;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px;
+  }
+
+  .container-sm {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .header-lg {
+    font-size: 35px;
+    font-weight: 300;
+    margin: 20px;
+  }
+  
+  .header-sm {
+    font-size: 28px;
+    font-weight: 300;
+    margin: 10px;
+  }
+
+  .hero-wrapper {
+    width: 66.6666666667%;
+    font-size: 16px;
+    background-color: #3d286b !important;
+    /*color: white;*/
+    border-radius: 2px;
+  }
+
+  .space-around {
+    justify-content: space-around;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .user {
+    flex: 1;
+    margin: 0 20px;
+    padding: 10px;
+  }
+
+  .user-label {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5px 0;
+  }
+
+  .user-inputs input {
+    border-radius: 3px;
+    border: none;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    flex: 2;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .user-inputs .input-light {
+    background: rgba(0, 0, 0, 0.02);
+  }
+
+  .user-inputs button {
+    flex: 1;
+    margin-left: 10px;
+  }
+
+  .width-50 {
+	width: 50%;
+  }
+
+  :global(button) {
+	background-color: #FC5090;
+	color: white;
+	font-weight: bold;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 3em;
+	width: 20%;
+	height: 5em;
+	font-size: 1.5em;
+  }
+
+    :global(button:hover) {
+	background-color: #3D286B;
+	color: white;
+	font-weight: bold;
+	margin: 0.5em;
+	padding: 1em;
+	border-radius: 3em;
+	width: 20%;
+	height: 5em;
+	font-size: 1.5em;
+  }
+
+   .home-image {
+	width: 20%;
+   }
+
+   .margin-60 {
+	margin-left: 30%;
+	margin-right: 30%;   
+   }
+
+   .padding-80 {
+	padding-left: 20%;
+	padding-right: 20%;   
+   }
 </style>
