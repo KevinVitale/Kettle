@@ -91,18 +91,37 @@
 	<div class='center-text'>
 		<image class='home-image' src={'https://www.cryptotrumps.net/wp-includes/custom-images/bufficorn.png'}/>
 	</div>
-	<h1 class='center-text'>kettle</h1>
-	<h2 class='center-text'>Facilitating 32 ETH Transfers for ETH 2.0 Validators</h2>
+	<h1 class='center-text'>kettlecorn</h1>
 	<div class='center-text'>
-
 	<button on:click={handleClickSend}>
-		Deposit ETH
+		Deposit Your 32 ETH
 	</button>
 	<button on:click={handleClickSend}>
-		Deposit ETH
+		Claim Your 32 ETH
 	</button>
 	</div>
-	<p class='center-text'>Here is text so Mike doesn't have to worry about translation issues.</p>
+	<div>
+	<h2 class='center-text'>Kettlecorn Anonymizes 32 ETH for ETH 2.0 Validators</h2>
+	<!--<p class='center-text margin-60'>Your privacy is important. Kettle is a decentralized application (dapp) powered by the Ethereum Blockchain, that gives you the tools to keep your transactions anonymous.</p>-->
+	<p class='center-text margin-60'>Your privacy is important. Kettlecorn is a mystical creature powered by the Ethereum Blockchain. He gives you the tools to keep your transactions private, 32 ETH at a time.</p>
+	</div>
+	<br>
+	<br>
+	<div class='center-text'>
+		<image class='width-50' src={'https://ethereum.org/assets/img/ethereum-logo-landscape-black.ad09bc8d.png'}/>
+	</div>
+	<br>
+	<br>
+	<h4 class='margin-60'>Kettlecorn is a decentralized app on the Ethereum Blockchain that automatically anonymizes 32-ETH denominations.</h4>
+	<br>
+	<br>
+	<h4 class='margin-60'>Deposit 32 ETH and wait for others. After a short amount of time, return to this page with your <b>Transaction Note</b> to retrieve your newly-anonymized Ether.</h4>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
 	<!--
 	<ul>
 	{#each Object.values(contracts) as contract, i}
@@ -128,7 +147,7 @@
 	h1 {
 		color: #3D286B;
 		text-transform: uppercase;
-		font-size: 5em;
+		font-size: 4em;
 		font-weight: 100;
 	}
 
@@ -309,6 +328,10 @@
     margin-left: 10px;
   }
 
+  .width-50 {
+	width: 50%;
+  }
+
   :global(button) {
 	background-color: #FC5090;
 	color: white;
@@ -316,8 +339,9 @@
 	margin: 0.5em;
 	padding: 1em;
 	border-radius: 3em;
-	width: 25%;
-	font-size: 2em;
+	width: 20%;
+	height: 5em;
+	font-size: 1.5em;
   }
 
     :global(button:hover) {
@@ -327,11 +351,22 @@
 	margin: 0.5em;
 	padding: 1em;
 	border-radius: 3em;
-	width: 25%;
-	font-size: 2em;
+	width: 20%;
+	height: 5em;
+	font-size: 1.5em;
   }
 
    .home-image {
 	width: 20%;
+   }
+
+   .margin-60 {
+	margin-left: 30%;
+	margin-right: 30%;   
+   }
+
+   .padding-80 {
+	padding-left: 20%;
+	padding-right: 20%;   
    }
 </style>
