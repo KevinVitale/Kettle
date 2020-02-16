@@ -100,10 +100,12 @@
 		Claim Your 32 ETH
 	</button>
 	</div>
+	<br>
 	<div>
 	<h2 class='center-text'>Kettlecorn Anonymizes 32 ETH for ETH 2.0 Validators</h2>
 	<!--<p class='center-text margin-60'>Your privacy is important. Kettle is a decentralized application (dapp) powered by the Ethereum Blockchain, that gives you the tools to keep your transactions anonymous.</p>-->
-	<p class='center-text margin-60'>Your privacy is important. Kettlecorn is a mystical creature powered by the Ethereum Blockchain. He gives you the tools to keep your transactions private, 32 ETH at a time.</p>
+	<br>
+	<h6 class='center-text margin-60'>Your privacy is important. Kettlecorn is a mystical creature powered by the Ethereum Blockchain. He gives you the tools to keep your transactions private, 32 ETH at a time.</h6>
 	</div>
 	<br>
 	<br>
