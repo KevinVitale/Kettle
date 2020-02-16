@@ -1,0 +1,3 @@
+[submodule "Svelte/Svelte/tornado-core"]
+	path = Svelte/Svelte/tornado-core
+	url = https://github.com/tornadocash/tornado-core.git

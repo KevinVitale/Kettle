@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:11
 
 # Or your actual UID, GID on Linux if not the default 1000
 ARG USERNAME=vscode
