@@ -7,7 +7,7 @@
 	import { getDrizzleProvider, getWCProvider, getProvider } from '../walletConnect';
 	import options from './drizzleOptions';
 	import { Drizzle, generateStore } from 'drizzle';
-	import Bufficorn from 'Bufficorn.png';
+	/*import bufficorn from './Bufficorn.png';*/
 
 	let state = { };
 	let drizzle = { };
@@ -88,12 +88,13 @@
 </script>
 
 <main>
+	<div class='center-text'>
+		<image class='home-image' src={'https://www.cryptotrumps.net/wp-includes/custom-images/bufficorn.png'}/>
+	</div>
 	<h1 class='center-text'>kettle</h1>
 	<h2 class='center-text'>Facilitating 32 ETH Transfers for ETH 2.0 Validators</h2>
 	<div class='center-text'>
-	<div class='center-text'>
-		<image src=Bufficorn/>
-	</div>
+
 	<button on:click={handleClickSend}>
 		Deposit ETH
 	</button>
@@ -329,4 +330,8 @@
 	width: 25%;
 	font-size: 2em;
   }
+
+   .home-image {
+	width: 20%;
+   }
 </style>
