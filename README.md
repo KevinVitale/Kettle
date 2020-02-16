@@ -10,8 +10,10 @@ Kettlecorn
 - [x] Compile and deploy deposit contract to Kovan Test Network.
 - [x] Upload and verify the source code on Etherscan.
 - [x] Use Carl Beek’s Ethereum 2.0 Toolkit to generate credentials to perform deposits to the deposit contract. 
-- [ ]  We created a dapp to tie the workflow together and walk the user through tornado deposit, withdrawal, credentials generation for Eth 2.0, and then deposit to the beacon chain deposit contract.
-
+- [X] Create a dapp to tie the workflow together 
+  - [ ] and walk the user through deposit, withdrawal, credentials generation for Eth 2.0, and then deposit to the beacon chain deposit contract.
+#### Part 2:
+Create a dapp to tie the workflow together and walk the user through tornado deposit, withdrawal, credentials generation for Eth 2.0, and then deposit to the beacon chain deposit contract.
 We feel that this historic migration of ETH from Ethereum 1.0 to 2.0 with consistent deposit/transfer amounts of 32 ETH could provide a high likelihood of anonymity for new and long time users of Ethereum 1.0 that have little to no privacy on the current mainnet.
 
 
