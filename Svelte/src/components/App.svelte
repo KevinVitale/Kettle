@@ -7,6 +7,7 @@
 	import { getDrizzleProvider, getWCProvider, getProvider } from '../walletConnect';
 	import options from './drizzleOptions';
 	import { Drizzle, generateStore } from 'drizzle';
+	import Bufficorn from 'Bufficorn.png';
 
 	let state = { };
 	let drizzle = { };
@@ -90,7 +91,9 @@
 	<h1 class='center-text'>kettle</h1>
 	<h2 class='center-text'>Facilitating 32 ETH Transfers for ETH 2.0 Validators</h2>
 	<div class='center-text'>
-	<image class='center-text' src='https://www.ethdenver.com/wp-content/themes/understrap/img/peeking-bufficorn.png'/>
+	<div class='center-text'>
+		<image src=Bufficorn/>
+	</div>
 	<button on:click={handleClickSend}>
 		Deposit ETH
 	</button>
