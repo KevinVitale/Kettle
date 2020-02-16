@@ -1,5 +1,5 @@
-# Overview
-
+Kettlecorn
+========
 <img width='500' src='images/Kettlecorn_Screenshot.png'/>
 
 Kettlecorn is a dapp that allows ETH-holders that want to validate in Ethereum 2.0 Phase 0 an easy way to anonymize their deposits to the beacon chain deposit contract on Ethereum mainnet.
