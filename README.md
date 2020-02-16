@@ -9,7 +9,7 @@ We succeeded in compiling and deploying the deposit contract to Kovan Test Netwo
 We feel that this historic migration of ETH from Ethereum 1.0 to 2.0 with consistent deposit/transfer amounts of 32 ETH could provide a high likelihood of anonymity for new and long time users of Ethereum 1.0 that have little to no privacy on the current mainnet.
 
 
-For README:
+
 Link to deposit contract with verified source code on Etherscan:
 https://kovan.etherscan.io/address/0x91996Be8aCEE088e77512365Ffc4EE522ff9DFFA#code
 
