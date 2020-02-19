@@ -6,7 +6,6 @@ Kettlecorn
 
 <blockquote class="twitter-tweet" data-lang="en" data-theme="dark"><p lang="en" dir="ltr">We had a great time at <a href="https://twitter.com/EthereumDenver?ref_src=twsrc%5Etfw">@EthereumDenver</a> last weekend! Incredible hacks all around :)<br><br>Shout-out to the winners of the eth2 bounties:<br><br>1st, $2500 - Kettlecorn - Anonymous Eth 2 Deposit Dapp<a href="https://twitter.com/TornadoCash?ref_src=twsrc%5Etfw">@TornadoCash</a> mod to accept 32 ETH deposits<a href="https://t.co/3158p6arnk">https://t.co/3158p6arnk</a><br><br>(2nd and 3rd below 👇)</p>&mdash; dannyryan (@dannyryan) <a href="https://twitter.com/dannyryan/status/1229613927044173824?ref_src=twsrc%5Etfw">February 18, 2020</a></blockquote> 
 
-<br>
 <hr>
 <img width='100%' src='images/Kettlecorn_Screenshot.png'/>
 
