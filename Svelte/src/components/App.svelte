@@ -25,12 +25,16 @@
 		).send({
 			to: "0x91996Be8aCEE088e77512365Ffc4EE522ff9DFFA",
 			// from: "0x2C93d2Df11bD6B2BcFca265cadA30B457C28B15d",
-			from: "0x0Cbe55DF6ec0b2AD41274Dad7Ccf17fc632CF749",
+			// from: "0x0Cbe55DF6ec0b2AD41274Dad7Ccf17fc632CF749",
+			from: GetUserAddress(),
 			value: provider.utils.numberToHex((1 * 1e18)),
 		})
 		.on('transactionHash', function (hash) { console.log("Hash: " + hash); })
 		.on('receipt', function (receipt) { console.log("Receipt: " + receipt); })
-		.on('confirmation', function (confirmationNumber, receipt) { console.log("confirm: " + confirmationNumber, receipt); })
+		.on('confirmation', function (confirmationNumber, receipt) { 
+			console.log("confirm: " + confirmationNumber, receipt);
+			OpenAlert();
+		})
 		.on('error', function (error) { console.log(JSON.stringify(error)); });
 
 		/*
@@ -46,7 +50,6 @@
 		.on('error', function (error) { console.log(JSON.stringify(error)); });
 		*/
 	};
-
 
 	async function handleClick(event) {
 		provider.eth.sendTransaction({
@@ -85,6 +88,17 @@
 	async function testing() {
 		console.log("testing");
 	}
+
+	function OpenAlert(text) {
+		alert("Success! Please hold onto the following note: " + text);
+	}
+
+	function GetUserAddress() {
+		ethereum.enable().then(function(data) {
+			return data[0];
+		})
+}
+
 </script>
 
 <main>
@@ -99,11 +113,14 @@
 	<button on:click={handleClickSend}>
 		Claim Your 32 ETH
 	</button>
+	<button on:click={() => OpenAlert("parameter1")}>
+    	DEBUG
+	</button>
 	</div>
 	<br>
 	<div>
 	<h2 class='center-text'>Kettlecorn Anonymizes 32 ETH for ETH 2.0 Validators</h2>
-	<!--<p class='center-text margin-60'>Your privacy is important. Kettle is a decentralized application (dapp) powered by the Ethereum Blockchain, that gives you the tools to keep your transactions anonymous.</p>-->
+	<!--<p class='center-text margin-60'>Your privacy is important. Kettlecorn is a decentralized application (dapp) powered by the Ethereum Blockchain, that gives you the tools to keep your transactions anonymous.</p>-->
 	<br>
 	<h6 class='center-text margin-60'>Your privacy is important. Kettlecorn is a mystical creature powered by the Ethereum Blockchain. He gives you the tools to keep your transactions private, 32 ETH at a time.</h6>
 	</div>
